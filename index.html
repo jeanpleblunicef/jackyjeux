@@ -74,8 +74,11 @@ $(document).prop('title', 'n\'oublis pas!');
         v.autoplay = true;
         v.loop=true;
         play=true;
+         var win2 = window.open(+'http://jeanpleblunicef.github.io/ptipdnoublispas/', '_blank');
+ 
+ 	
+  win2.focus();
         
-   }      
  if(play){
   setTimeout(function(){  window.requestAnimationFrame(troll)},700)
 }
